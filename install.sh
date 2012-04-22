@@ -1,5 +1,7 @@
 #!/bin/sh
 
+apt-get update
+
 apt-get install vim
 
 apt-get install git-core git-gui git-doc
