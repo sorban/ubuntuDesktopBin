@@ -14,9 +14,13 @@ sudo make install
 cd ..
 rm -rf node
 
-apt-get install xclip
-
+#npm
+curl http://npmjs.org/install.sh | sh
 npm install express -g
 npm install supervisor -g
 npm install html2jade -g
 
+apt-get install xclip
+
+apt-get install ec2-api-tools
+ec2-authorize default -p 22
