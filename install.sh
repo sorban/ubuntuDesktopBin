@@ -2,6 +2,7 @@
 
 apt-get update
 
+apt-get install make
 apt-get install vim
 
 apt-get install git-core git-gui git-doc
